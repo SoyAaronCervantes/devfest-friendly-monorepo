@@ -1,0 +1,15 @@
+{
+  "name": "@components/logout",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "scripts": {
+    "build": "ng b @components/logout",
+    "watch": "ng b @components/logout --watch"
+  }
+}

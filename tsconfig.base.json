@@ -1,0 +1,49 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@services/auth-state": [
+        "dist/services/auth-state/services-auth-state",
+        "dist/services/auth-state"
+      ],
+      "@services/api-login": [
+        "dist/services/api-login/services-api-login",
+        "dist/services/api-login"
+      ],
+      "@interfaces/user-auth": [
+        "dist/interfaces/user-auth/interfaces-user-auth",
+        "dist/interfaces/user-auth"
+      ],
+      "@services/api-signup": [
+        "dist/services/api-signup/services-api-signup",
+        "dist/services/api-signup"
+      ],
+      "@components/auth-form": [
+        "dist/components/auth-form/components-auth-form",
+        "dist/components/auth-form"
+      ],
+      "@components/logout": [
+        "dist/components/logout/components-logout",
+        "dist/components/logout"
+      ],
+      "@components/alert": [
+        "dist/components/alert/components-alert",
+        "dist/components/alert"
+      ]
+    }
+  }
+}

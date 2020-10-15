@@ -1,0 +1,65 @@
+/*
+  This is a "Solution Style" tsconfig.json file, and is used by editors and TypeScript’s language server to improve development experience.
+  It is not intended to be used to perform a compilation.
+
+  To learn more about this file see: https://angular.io/config/solution-tsconfig.
+*/
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/services/auth-state/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/services/auth-state/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/services/api-login/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/services/api-login/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/interfaces/user-auth/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/interfaces/user-auth/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/services/api-signup/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/services/api-signup/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/@apps/devfest/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/@apps/devfest/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/components/auth-form/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/components/auth-form/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/components/logout/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/components/logout/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/components/alert/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/components/alert/tsconfig.spec.json"
+    }
+]
+}

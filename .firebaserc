@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "devfest-monorepo": {
+      "hosting": {
+        "devfest-monorepo": [
+          "devfest-monorepo"
+        ]
+      }
+    }
+  }
+}

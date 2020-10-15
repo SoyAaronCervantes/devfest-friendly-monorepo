@@ -1,0 +1,30 @@
+<div class="jumbotron">
+
+  <h1 class="display-4"> Hi, This is my project: <i>{{ title }}</i> </h1>
+
+</div>`
+
+<div class="container" *ngIf="( user$ | async ) as user; else form">
+
+  <components-logout [user]="user"></components-logout>
+
+</div>
+
+<ng-template #form>
+
+  <div class="container">
+
+    <div class="d-flex justify-content-center mb-5 container__login">
+
+      <!-- toDo Add Google Button -->
+
+    </div>
+
+    <hr>
+    <h3 class="mb-3 text-center">Create a new user</h3>
+
+    <components-auth-form (formValue)="submit( $event )" [error]="error"></components-auth-form>
+
+  </div>
+
+</ng-template>
